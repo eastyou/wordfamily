@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>词族补全练习</title>
+<style>@page { size: A4; margin: 12mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+       color: #1f2933; background: #fff; }
+.sheet { padding: 4mm; }
+h1 { margin: 0 0 2mm; font-size: 22px; text-align: center; letter-spacing: 2px; }
+.meta { margin: 0 0 4mm; text-align: center; color: #616e7c; font-size: 12px; }
+.families { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.family { border: 1px solid #cbd2d9; border-radius: 3mm; padding: 3mm; page-break-inside: avoid; }
+.family h2 { margin: 0 0 2mm; font-size: 20px; color: #2c5282; }
+.chips { display: flex; flex-wrap: wrap; gap: 2mm; }
+.chip { border: 1px solid #e2e8f0; border-radius: 2mm; padding: 1mm 2.5mm;
+        font-family: "SFMono-Regular", Consolas, monospace; font-size: 16px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 4mm; }
+.card { border: 1px solid #cbd2d9; border-radius: 3mm; padding: 4mm; page-break-inside: avoid; }
+.prompt { font-family: "SFMono-Regular", Consolas, monospace; font-size: 24px;
+          letter-spacing: 3px; margin: 0 0 2mm; }
+.hint { font-size: 12px; color: #9aa5b1; margin: 0; }
+.answer-line { border-bottom: 1px dashed #9aa5b1; height: 26px; margin-top: 3mm; }
+.answers { page-break-before: always; margin-top: 6mm; }
+.answers h2 { font-size: 18px; border-left: 4px solid #2f855a; padding-left: 3mm; color: #276749; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { border: 1px solid #cbd2d9; padding: 2mm 3mm; text-align: left; }
+th { background: #f5f7fa; }
+@media print { .sheet { padding: 0; } }</style></head><body>
+<main class="sheet">
+<h1>词族补全练习</h1>
+<p class="meta">姓名：__________　班级：__________　日期：__________</p>
+<p class="meta">本页词族：-ug　-in　-ip　-an　-ed</p>
+<section class="cards">
+<div class="card"><p class="prompt">1. t____</p><p class="hint">词族 -ug</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">2. ____ug</p><p class="hint">词族 -ug</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">3. p____</p><p class="hint">词族 -in</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">4. ____ip</p><p class="hint">词族 -ip</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">5. ____ip</p><p class="hint">词族 -ip</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">6. m____</p><p class="hint">词族 -an</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">7. z____</p><p class="hint">词族 -ip</p><div class="answer-line"></div></div>
+<div class="card"><p class="prompt">8. ____ed</p><p class="hint">词族 -ed</p><div class="answer-line"></div></div>
+</section>
+<section class="answers"><h2>参考答案</h2><table><thead><tr><th>题号</th><th>题目</th><th>答案</th><th>单词</th></tr></thead><tbody><tr><td>1</td><td>t____</td><td>ug</td><td>tug</td></tr>
+<tr><td>2</td><td>____ug</td><td>b</td><td>bug</td></tr>
+<tr><td>3</td><td>p____</td><td>in</td><td>pin</td></tr>
+<tr><td>4</td><td>____ip</td><td>d</td><td>dip</td></tr>
+<tr><td>5</td><td>____ip</td><td>t</td><td>tip</td></tr>
+<tr><td>6</td><td>m____</td><td>an</td><td>man</td></tr>
+<tr><td>7</td><td>z____</td><td>ip</td><td>zip</td></tr>
+<tr><td>8</td><td>____ed</td><td>f</td><td>fed</td></tr></tbody></table></section>
+</main></body></html>
